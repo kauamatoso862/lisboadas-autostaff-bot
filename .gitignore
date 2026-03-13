@@ -206,13 +206,15 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# --- PROJETO WHITELIST LISBOADAS ---
-# Arquivo crítico: contém seu login e cookies de staff (MUITO IMPORTANTE)
+# Secrets
 auth.json
-
-# Caso você use variáveis de ambiente para esconder o Webhook
 .env
 
-# Logs e fotos de erro do Playwright
+# Python
+__pycache__/
+*.py[cod]
+venv/
+
+# Logs e Imagens
 *.log
 *.png
