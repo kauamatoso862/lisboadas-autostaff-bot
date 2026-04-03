@@ -5,7 +5,7 @@ from playwright.async_api import async_playwright
 
 # --- CONFIGURAÇÕES ---
 DISCORD_WEBHOOK_URL = "SUA_URL_DO_WEBHOOK_AQUI" 
-URL_PAINEL = "https://whitelist.lisboadas.cloud/server"
+URL_PAINEL = "https://whitelist.lisweb.systems/servers"
 DELAY_SEGURANCA = 20 
 # ---------------------
 
